@@ -25,7 +25,7 @@ import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation";
 import Indent from "@ckeditor/ckeditor5-indent/src/indent";
 import IndentBlock from "@ckeditor/ckeditor5-indent/src/indentblock";
-import SimpleUploadAdapter from "@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter";
+import Base64UploadAdapter from "@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter";
 
 class App extends Component {
     render() {
@@ -65,10 +65,10 @@ class App extends Component {
                         ImageToolbar,
                         ImageUpload,
                         ImageResize,
-                        SimpleUploadAdapter,
                         Table,
                         TableToolbar,
-                        TextTransformation
+                        TextTransformation,
+                        Base64UploadAdapter
                     ],
                     toolbar: [
                         "heading",
@@ -156,13 +156,6 @@ class App extends Component {
                                 "oneForth",
                                 "threeQuarters"
                             ]
-                        }
-                    },
-                    simpleUpload: {
-                        uploadUrl: "http://your.upload.url",
-                        headers: {
-                            "X-CSRF-TOKEN": "CSFR-Token"
-                            // Authorization: 'Bearer <JSON Web Token>'
                         }
                     },
                     language: "ko"
