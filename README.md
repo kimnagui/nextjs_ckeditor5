@@ -4,8 +4,8 @@ nextjs 9 + ckeditor5
 
 ## 0. Custom Build
 
-Source : [Link](https://github.com/kimnagui/nextjs_ckeditor5/tree/master/0.custom_build)
+[Manual](https://nagui.me/javascript/nextjs9_ckeditor5/custom_build/)
 
 ## 1. Image Upload
 
-Source : [Link](https://github.com/kimnagui/nextjs_ckeditor5/tree/master/1.image_upload)
+[Manual](https://nagui.me/javascript/nextjs9_ckeditor5/image_upload/)
